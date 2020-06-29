@@ -1,0 +1,149 @@
+header{
+	float:left;
+	margin:0 0 30px 0;
+	padding:5px 0 0 0;
+	width:100%;
+}
+
+a {
+	text-decoration:none;
+}
+
+#wrapper{
+	max-width:940px;
+	margin:0 auto;
+	padding:0 5%;
+}
+
+#logo{
+	text-align:center;
+}
+
+h1{
+	font-family: 'Changa One', cursive;
+	margin:20px 0;
+	font-size:1.75em;
+	font-weight:normal;
+	line-height:0.8em;
+	text-align:center;
+
+}
+h2{
+	font-size:0.75em;
+	margin:20px 0;
+	font-weight:normal;
+}
+
+body{
+	font-family: 'Miniver', cursive;
+}
+
+a{
+	color:#6ab47b;
+}
+header{
+	background-color:#6aa47b;
+	border-color:#599A68;
+}
+h1,h2{
+	color:#fff;
+}
+nav{
+	color:#fff;
+	background-color:#599A68;
+	text-align:center;
+	padding:0;
+}
+
+nav ul{
+	list-style:none;
+	margin:0 10px;
+	padding:0;
+}
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	font-weight:800;
+	padding:15px 10px;
+}
+img{
+	max-width:100%;
+}
+.aa{
+	width:20px;
+	height:20px;
+	margin:0 50px;
+}
+
+section ul{
+	list-style:none;
+	margin:0 10px;
+	padding:0;
+}
+
+#gallery li{
+	float:left;
+	width:45%;
+	color:#bd7788;
+	margin: 2.5%;
+}
+#gallery li a p{
+	font-size:0.75em;
+	color:black;
+	margin: 0;
+	padding:5%
+}
+
+nav a{
+	color:#fff;
+}
+
+nav a.selected,nav a:hover{
+	color:red;
+}
+
+
+footer{
+	color:#999;
+	font-size:0.75em;
+	text-align:center;
+	padding-top:50px;
+	clear:both;
+}
+
+.profile-photo{
+	display:block;
+	max-width:150px;
+	margin:0 auto 30px;
+	boeder-radius:20;
+}
+h3{
+	margin:0 0 1em 0;
+}
+
+.contact-info{
+	list-style:none;
+	padding:0;
+	margin:0;
+	font-size:0.9em;
+}
+.contact-info a{
+	display:block;
+	min-height:20px;
+	background-repeat:no-repeat;
+	background-size:20px 20px;
+	padding: 0 0 0 30px;
+	margin:0 0 10px;
+}
+
+.contact-info li.phone a{
+	background-image:url('../img/phone.png');
+}
+.contact-info li.mail a{
+	background-image:url('../img/email.png');
+}
+.contact-info li.baidu a{
+	background-image:url('../img/baidu.png');
+}
